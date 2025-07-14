@@ -15,20 +15,20 @@ and an second view to view the gallery. When image on the gallery are clicked
 the user will have the option to download the file locally, or to delete it 
 from local storage.
 
-The etch a steck will have options for color, eraser, grid size, reset and save.
+The etch a sketch will have options for color, eraser, grid size, reset and save.
 
 ### Main Features
 
-* **Etch a Stech**
+* **Etch a Sketch**
   * This is the main feature, that users will interact with
-  * It will be a grid, and when mouse click and hover events occur, the color
+  * It will be a grid, and when the mouse click and hover events occur, the color
     of the grid square will change, allowing users to create an image
 * **Save button**
-  * For the images created. When the user has completed their masterpiece,
+  * This button is for the images created. When the user has completed their masterpiece,
     they will be able to press a button that will call a function to create a png
     from the div, and save it to local storage.
 * **Download button**
-  * For the images will also be a feature, they will query the local
+  * For the images there will also be a feature, they will query the local
     storage for the saved png, and transfer the file to the users storage.
 * **Project Gallery**
   * The web page will feature a project gallery based on the saved images from
@@ -51,13 +51,30 @@ The etch a steck will have options for color, eraser, grid size, reset and save.
 * **Lukas**
 * **Princess**
 
-* **Responsibilities:**
-    * **Lukas:** Main focus on backend logic, image conversion, downlaod, 
-    local storage, 
-    * **Princess:** Primary focus on user interface elements, options panel, 
-    and gallery presentation.
-    * *Shared:* problem-solving, code reviews
+* **Frontend Developer: Princess**
+  * Responsible for building the structure of the Etch a Sketch interface.
+  * Must create the HTML layout for the:
+    * Drawing grid
+    * Options panel
+    * Gallery section
+    * Must style with CSS for clean, user-friendly look.
+      
+* **JavaScript Developer: Lukas**
+  * Implement drawing functionality
+  * Build features including:
+    * Colour picking logic
+    * Eraser mode
+    * Clear grid
+    * Save, download, and delete buttons
+    * Gallery display from local storage
+    * Using html2canvas to export drawings as PNGs
+  * Optimize code for performance and usability!
 
+* **Shared**
+  * Project organization
+  * Github management
+  * Code review
+ 
 ---
 
 ## Detailed Feature Breakdown
